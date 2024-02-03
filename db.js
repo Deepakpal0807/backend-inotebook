@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const mongoURI = "mongodb://localhost:2707";
-console.log("Deepak Pal is a good boy");
+console.log("Check");
 
 const connectToMongo=async()=> {
   await mongoose.connect(mongoURI)
